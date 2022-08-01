@@ -142,53 +142,76 @@ const users = [
 // console.log("Third Position", third);
 // console.log("Fourth Position", fourth);
 
-const userGuille = {
-    id: 3,
-    userName: "Guillermo",
-    userLastName: "Scharf",
-};
+// const userGuille = {
+//     id: 3,
+//     userName: "Guille",
+//     userLastName: "Scharf",
+// };
+// const userMeli = {
+//     id: 2,
+//     userName: "Melina",
+//     userLastName: "Lencinas",
+//     nameCatTwo: "Rubio",
+// };
 
-const idDestructuring = userGuille.id;
-const userNameDestructuring = userGuille.userName;
-const userLastNameDestructuring = userGuille.userLastName;
+// const idDestructuring = userGuille.id;
+// const userNameDestructuring = userGuille.userName;
+// const userLastNameDestructuring = userGuille.userLastName;
 
-console.log("Id", idDestructuring);
-console.log("User Name", userNameDestructuring);
-console.log("User Last Name", userLastNameDestructuring);
+// console.log("Id", idDestructuring);
+// console.log("User Name", userNameDestructuring);
+// console.log("User Last Name", userLastNameDestructuring);
 
-const { id: idUser, userName, userLastName } = userGuille;
+// // ECMA6 - Destructuring an object
+// const { id: idUser, userName, userLastName } = userGuille;
 
-// console.log("Id ", id);
-console.log("idUser", idUser);
-console.log("User Name ", userName);
-console.log("User Last Name ", userLastName);
+// // console.log("Id ", id);
+// console.log("idUser", idUser);
+// console.log("User Name ", userName);
+// console.log("User Last Name ", userLastName);
 
-function getUser(user) {
-    return `${user.userName} ${user.userLastName}`;
-}
+// function getUser(user) {
+//     return `${user.userName} ${user.userLastName}`;
+//     // console.log({ userName });
+// }
 
-function getUserDestructuring2(user) {
-    const { userName, userLastName } = user;
-    return `${userName} ${userLastName}`;
-}
+// getUser(userMeli);
+// // console.log(getUser(userGuille));
+// // console.log(getUser(userMeli));
 
-function getUserDestructuring({ userName, userLastName }) {
-    return `${userName} ${userLastName}`;
-}
+// function getUserDestructuring2(user) {
+//     const { userName, userLastName } = user;
+//     return `${userName} ${userLastName}`;
+// }
 
-const names = ["Fabi", "Melina", "Guillermo", "Emi"];
-const otherNames = ["Sofia", "Fabricio", "Deborah", "Nacho"];
-const otherNamesAgain = ["Paloma", "Fernando", "Celeste", "Javier"];
+// function getUserDestructuring({ userName, userLastName }) {
+//     return `${userName} ${userLastName}`;
+// }
 
-const totalNames = names.concat(otherNamesAgain, otherNames);
-console.log("Total Names", totalNames);
+// console.log(getUserDestructuring(userGuille));
+// console.log(getUserDestructuring(userMeli));
 
-const totalNamesSpread = [...names, ...otherNames, ...otherNamesAgain];
-console.log(totalNamesSpread);
+// const names = ["Fabi", "Melina", "Guillermo", "Emi"];
+// const otherNames = ["Sofia", "Fabricio", "Deborah", "Nacho"];
+// const otherNamesAgain = ["Paloma", "Fernando", "Celeste", "Javier"];
 
-const updateGuille = {
-    ...userGuille,
-    userEmail: "guille@skillfactory.com",
-};
+// const totalNames = names.concat(otherNames, otherNamesAgain);
+// console.log("Total Names", totalNames);
 
-console.log("Update Guille", updateGuille);
+// const totalNamesSpread = [...names, ...otherNames, ...otherNamesAgain];
+// console.log(totalNamesSpread);
+
+// // const updateGuille = {
+// //     ...userGuille,
+// //     userEmail: "guille@skillfactory.com",
+// // };
+
+// // console.log("Update Guille", updateGuille);
+
+// const updateMeli = {
+//     ...userMeli,
+//     nameCatTwo: "Manzanita",
+//     nameCatOne: "Toronjita",
+// };
+// console.log("userMeli", userMeli);
+// console.log("Update Meli", updateMeli);
