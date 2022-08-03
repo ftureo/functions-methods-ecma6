@@ -3,10 +3,10 @@
 // Axios async/await
 // Promise
 
-const URL_USERS = "https://jsonplaceholder.typicode.com/users";
-fetch(URL_USERS) // Infiere en que el pedido es un GET
-    .then((response) => response.json())
-    .then((data) => showData(data)); //Nested Promises
+// const URL_USERS = "https://jsonplaceholder.typicode.com/users";
+// fetch(URL_USERS) // Infiere en que el pedido es un GET
+//     .then((response) => response.json())
+//     .then((data) => showData(data)); //Nested Promises
 
 // // Paint the data in the DOM with FOR
 // function showData(data) {
