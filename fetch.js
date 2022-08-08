@@ -33,7 +33,7 @@
 //     document.getElementById("fetch-petition").innerHTML = body;
 // };
 
-// // Paint the data in the DOM with MAP and Arrow Function Format + Destructuring
+// Paint the data in the DOM with MAP and Arrow Function Format + Destructuring
 // const showData = (data) => {
 //     console.log("Data", data);
 //     let body = ``;
